@@ -1,0 +1,25 @@
+:root {
+  --bg: #09090C; 
+  --color: white;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 1920px;
+  color: var(--color);
+  background-color: var(--bg);
+  display: flex;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+

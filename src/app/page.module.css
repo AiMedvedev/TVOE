@@ -1,0 +1,107 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100svh;
+  width: 100vw;
+}
+
+.hero {
+  height: 800px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url('../../public/hero.png');
+  background-position: right;
+  background-repeat: no-repeat;
+  overflow-x: hidden;
+}
+
+.content {
+  margin-top: 294px;
+  max-width: 886px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 36px;
+
+}
+
+.heroTitle {
+  font-size: 36px;
+  text-align: center;
+  font-weight: 400;
+  line-height: 1.2;
+  text-wrap: balance;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.button {
+  padding: 24px 32px;
+  width: 243px;
+  height: 80px;
+  font-size: 30px;
+  border: none;
+  border-radius: 16px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.10) 0%, rgba(255, 255, 255, 0.13) 50%, rgba(255, 255, 255, 0.10) 100%);
+  color: var(--color);
+}
+
+.buttonWatch {
+  background: linear-gradient(90deg, #6A11CB 0%, #2575FC 100%);
+}
+
+.fresh {
+  width: 100%;
+  margin-top: 125px;
+  padding-left: 215px;
+  overflow-x: hidden;
+}
+
+.freshTitle {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 24px;
+}
+
+.freshSlider {
+  display: flex;
+  align-items: center;
+  gap: 44px;
+}
+
+.card {
+  padding: 8px;
+}
+
+.cardTitle {
+  margin-top: 20px;
+  font-size: 24px;
+}
+
+.top {
+  margin-top: 110px;
+  padding-left: 215px;
+  overflow-x: auto;
+  width: 100%;
+}
+
+.topTitle {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.topSlider {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+  margin-top: 24px;
+  margin-bottom: 203px;
+}
