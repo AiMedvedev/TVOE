@@ -1,7 +1,6 @@
 import Image from 'next/image'
 import styles from './page.module.css'
 import Filmcard from '@/components/filmcard/filmcard';
-import Link from 'next/link';
 
 const Home = () => {
   return (
@@ -25,22 +24,10 @@ const Home = () => {
       <div className={styles.fresh}>
         <h2 className={styles.freshTitle}>Новинки</h2>
         <div className={styles.freshSlider}>
-          <div className={styles.card}>
-              <Image src="/card1.png" width={400} height={600} alt="film card"/>
-              <p className={styles.cardTitle}>Синий жук</p>
-          </div>
-          <div className={styles.card}>
-              <Image src="/card2.png" width={400} height={600} alt="film card"/>
-              <p className={styles.cardTitle}>Домашняя игра</p>
-          </div>
-          <div className={styles.card}>
-              <Image src="/card3.png" width={400} height={600} alt="film card"/>
-              <p className={styles.cardTitle}>Салют 7</p>
-          </div>
-          <div className={styles.card}>
-              <Image src="/card4.png" width={400} height={600} alt="film card"/>
-              <p className={styles.cardTitle}>Поймай меня, если сможешь</p>
-          </div>
+          <Filmcard image="/card1.png" title="Синий жук"/>
+          <Filmcard image="/card2.png" title="Домашняя игра"/>
+          <Filmcard image="/card3.png" title="Салют 7"/>
+          <Filmcard image="/card4.png" title="Поймай меня, если сможешь"/>
         </div>
       </div>
       <div className={styles.top}>
